@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_add"
+            android:icon="@drawable/addicon"
+            android:title="Agregar" />
+        <item
+            android:id="@+id/nav_update"
+            android:icon="@drawable/updateicon"
+            android:title="Actualizar" />
+        <item
+            android:id="@+id/nav_list"
+            android:icon="@drawable/listicon"
+            android:title="Listar" />
+        <item
+            android:id="@+id/nav_delete"
+            android:icon="@drawable/deleteicon"
+            android:title="Eliminar" />
+    </group>
+
+    <item android:title="¡Ubicanos!">
+        <menu>
+            <item
+                android:id="@+id/nav_maps"
+                android:icon="@drawable/iconmap"
+                android:title="Nuestras oficinas" />
+
+        </menu>
+    </item>
+
+</menu>
